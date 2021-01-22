@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NCScript xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://secure.newcropaccounts.com/interfaceV7">
+    <Credentials>
+        <partnerName>newcropdemo</partnerName>
+        <name>demo</name>
+        <password>demo</password>
+        <productName>NewScript Software</productName>
+        <productVersion>V1.0</productVersion>
+    </Credentials>
+    <UserRole>
+        <user>LicensedPrescriber</user>
+        <role>doctor</role>
+    </UserRole>
+    <Destination>
+        <requestedPage>compose</requestedPage>
+    </Destination>
+    <Account ID="Kevin11">
+        <accountName>Kevins Test</accountName>
+        <siteID>F</siteID>
+        <AccountAddress>
+            <address1>232323 Test</address1>
+            <address2>Suite 240</address2>
+            <city>Boston</city>
+            <state>MA</state>
+            <zip>10409</zip>
+            <zip4>1234</zip4>
+            <country>US</country>
+        </AccountAddress>
+        <accountPrimaryPhoneNumber>7135551212</accountPrimaryPhoneNumber>
+        <accountPrimaryFaxNumber>7135551313</accountPrimaryFaxNumber>
+    </Account>
+    <Location ID="1">
+        <locationName>Mass Location</locationName>
+        <LocationAddress>
+            <address1>232323 Test</address1>
+            <address2>Suite 240</address2>
+            <city>Boston</city>
+            <state>MA</state>
+            <zip>10409</zip>
+            <zip4>1234</zip4>
+            <country>US</country>
+        </LocationAddress>
+        <primaryPhoneNumber>7135151212</primaryPhoneNumber>
+        <primaryFaxNumber>7135151213</primaryFaxNumber>
+        <pharmacyContactNumber>7135151212</pharmacyContactNumber>
+    </Location>
+    <LicensedPrescriber ID="Kevin2Stage">
+        <LicensedPrescriberName>
+            <last>StageDoctor</last>
+            <first>Kevin</first>
+        </LicensedPrescriberName>
+        <dea>CL8642399</dea>
+        <licenseState>MA</licenseState>
+        <licenseNumber>MA495</licenseNumber>
+        <npi>1710177100</npi>
+    </LicensedPrescriber>
+    <Patient ID="ZacharyDelaplaine-1">
+        <PatientName>
+            <last>Delaplaine</last>
+            <first>Zachary</first>
+        </PatientName>
+        <medicalRecordNumber>ZacharyDelaplaine</medicalRecordNumber>
+        <PatientAddress>
+            <address1>901 Sauvblanc Blvd</address1>
+            <city>Petaluma</city>
+            <state>CA</state>
+            <zip>94952</zip>
+            <country>US</country>
+        </PatientAddress>
+        <PatientCharacteristics>
+            <dob>20101201</dob>
+            <gender>M</gender>
+        </PatientCharacteristics>
+    </Patient>
+</NCScript>
