@@ -31,8 +31,8 @@ public class ClickthroughSteps extends ClickthroughScreen {
     public void userInsertTheDoctorDataXml() {
         clickXmlField();
     }
-    @And("user click in the clickthrough button")
-    public void userClickInTheClickthroughButton() {
+    @And("user click in the go button")
+    public void userClickInTheGoButton() {
         clickGoButton();
     }
     @Then("user should be redirected to compose page")
